@@ -2,6 +2,7 @@ package com.chokkoazul.chokkotravelview;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
@@ -17,4 +18,9 @@ public class HolaController {
 		
 		
 	}
+	
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+    String home() {
+        return "index";
+    }
 }
