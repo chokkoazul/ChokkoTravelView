@@ -8,5 +8,8 @@
 </head>
 <body>
 <jsp:forward page="irHola.html"></jsp:forward>
+<a href="autentica.html">Autenticar</a>
+
+
 </body>
 </html>
