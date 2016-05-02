@@ -19,6 +19,9 @@ public class HolaController {
 		
 	}
 	
+	
+	
+	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
     String home() {
         return "index";
